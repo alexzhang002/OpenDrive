@@ -1,16 +1,30 @@
 # opendrive
 
-A new Flutter project.
+A cross platfrom application for managing files and folders in cloud storage.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+You can download the latest version from application store with the following links(Only need pay 1.99$ support us):
 
-A few resources to get you started if this is your first Flutter project:
+Or you can build the application from source code:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/OpenCloudDrive/OpenDrive.git
+cd OpenDrive
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Support Platform
+
+- [x] Android
+- [x] iOS
+- [x] macOS
+- [x] Windows
+- [x] Linux
+
+## Features
+
+Support for multiple cloud storage providers:
+
+- [x] Google Drive
+- [x] Dropbox
+- [x] OneDrive
