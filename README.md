@@ -13,6 +13,13 @@ git clone https://github.com/OpenCloudDrive/OpenDrive.git
 cd OpenDrive
 ```
 
+- macOS
+
+```
+go build -tags nosqlite -ldflags="-w -s" --buildmode=c-shared -o macos/Frameworks/libgopeed.dylib github.com/rclone/rclone/librclone
+flutter build macos
+```
+
 ## Support Platform
 
 - [x] Android
